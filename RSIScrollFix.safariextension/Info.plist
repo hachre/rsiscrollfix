@@ -7,7 +7,7 @@
 	<key>Builder Version</key>
 	<string>10538.39.41</string>
 	<key>CFBundleDisplayName</key>
-	<string>StarCitizen Website Scroll Fix</string>
+	<string>StarCitizen ScrollFix (RSIScrollFix)</string>
 	<key>CFBundleIdentifier</key>
 	<string>de.hachre.rsiscrollfix</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -24,12 +24,12 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>script.js</string>
+				<string>rsiscrollfix.js</string>
 			</array>
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Fixes laggy scrolling on the official Star Citizen Website!</string>
+	<string>Fixes laggy scrolling on the official StarCitizen Website!</string>
 	<key>DeveloperIdentifier</key>
 	<string>JJWRJF82RN</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -38,11 +38,18 @@
 	<dict>
 		<key>Website Access</key>
 		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.robertsspaceindustries.com</string>
+				<string>robertsspaceindustries.com</string>
+			</array>
 			<key>Include Secure Pages</key>
 			<true/>
 			<key>Level</key>
-			<string>All</string>
+			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Website</key>
+	<string>https://github.com/hachre/rsiscrollfix</string>
 </dict>
 </plist>
